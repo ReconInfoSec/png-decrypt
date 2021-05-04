@@ -4,6 +4,8 @@ import sys
 
 from arc4 import ARC4
 
+# Derived from Mimecast's proof-of-concept code in their excellent analysis of TA551/Shathak:
+# https://www.mimecast.com/globalassets/documents/whitepapers/taa551-treatresearch_final-1.15.21.pdf
 
 parser = argparse.ArgumentParser()
 parser.add_argument("filename", help="File to decrypt")
